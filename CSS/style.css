@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+#navbar {
+    background: #0c0909;
+    color: rgb(238, 228, 228);
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    }
+
+.text-primary{
+    color: #f7c08a;
+}
+   
+
+h1,h2,h3{
+    padding: 20px;
+    color: ##333;
+}
+p{
+    margin: 10px auto;
+    color: #333;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    padding-right: auto 20px;
+    list-style: none;
+}
+#navbar ul li{
+    float: right;
+    padding: 20px;
+} 
+#navbar ul li a:hover{
+    color: teal;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+/* style for showcase */
+#showcase{
+    background: url('../IMG/yuvika.jpeg') no-repeat center center/cover;
+    height: 600px;
+    
+}
+#showcase .show-content{
+text-align: center;
+color: #fff;
+padding-top: 170px;
+}
+#showcase .show-content h1
+{
+font-size: 60px;
+line-height: 1.2em;
+}
+#showcase .show-content p{
+    font-size: 20px;
+
+}
+.show-content a .btn{
+    display: inline;
+    color: #fff;
+    padding: 10px;
+    background-size: auto;
+    
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 20px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+
+    color: brown;
+    background: #f7c08a;
+}
+
+.bg-dark{
+    background: black;
+}
+/* home Info */
+#Home-info  {
+ 
+    height: 400px;
+}
+#Home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../IMG/Yuvi.jpeg') no-repeat; 
+   min-height: 100%;
+}
+.info-content{
+    float: left;
+    text-align: center;
+    width: 50%;
+    padding: 100px 20px;
+    background:black;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+#Home-info .info-content p{
+    padding: 30px;
+} 
+.Box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    
+}
+.Box .Box2{
+    background:#f7c08a;
+    padding-top: 15px;
+    
+}
+.Box .Box1{
+
+    padding-top: 15px;
+    
+}
+
+#Main-footer{
+    text-align: center;
+}
