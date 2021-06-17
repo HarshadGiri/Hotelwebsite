@@ -12,9 +12,12 @@ body{
     color: rgb(238, 228, 228);
     overflow: auto;
 }
+.clr
+{clear: both;}
 
-a{
+a {
     text-decoration: none;
+    color: brown;
     }
 
 .text-primary{
@@ -24,11 +27,11 @@ a{
 
 h1,h2,h3{
     padding: 20px;
-    color: #333;
+    color:#fff;
 }
 p{
     margin: 10px auto;
-    color: #333;
+    color:#fff;
 }
 
 #navbar h1{
@@ -131,18 +134,21 @@ line-height: 1.2em;
     text-align: center;
     padding: 0;
     margin-top: 10px;
-    color: #fff ;
-    
+    color:#fff ;
+    background: black   ;
+        
 }
 .Box .Box2{
     background:#f7c08a;
-    padding-top: 15px;
+    padding: 0;
+    margin: 0%;
     
 }
 .Box .Box1{
 
     padding-top: 15px;
     
+
 }
 
 #Main-footer{
@@ -236,3 +242,7 @@ background: #f7c08a;}
     border-color: rgb(194, 120, 31);
 
 }
+.Box i {
+    color: #fff;
+}
+
