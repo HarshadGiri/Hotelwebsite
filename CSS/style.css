@@ -12,6 +12,7 @@ body{
     color: rgb(238, 228, 228);
     overflow: auto;
 }
+
 a{
     text-decoration: none;
     }
@@ -23,7 +24,7 @@ a{
 
 h1,h2,h3{
     padding: 20px;
-    color: ##333;
+    color: #333;
 }
 p{
     margin: 10px auto;
@@ -40,7 +41,7 @@ p{
     list-style: none;
 }
 #navbar ul li{
-    float: right;
+    float: left;
     padding: 20px;
 } 
 #navbar ul li a:hover{
@@ -168,7 +169,7 @@ line-height: 1.2em;
     height: 70%;
 }
 
-}
+
 .left-info p{
     padding-top:20px;
     margin-top: 0%;
