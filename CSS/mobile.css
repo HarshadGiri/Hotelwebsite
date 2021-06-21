@@ -27,8 +27,25 @@
 }
 .Box{
     float: none;
-    width: 100%
+    width: 100%;
     text-align: center;
+    padding: 0;
+    padding-top: 20px;
     
-        
+    
+}       
+/* About  */
+#about-info .left-info{
+    float: none;
+    text-align: center;
+}
+#about-info .info-right{
+    float: none;
+    text-align: center;
+}
+#about-info{
+    text-align: center;
+}
+.left-info p{
+    text-align: center;
 }

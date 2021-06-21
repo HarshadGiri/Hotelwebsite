@@ -132,7 +132,8 @@ line-height: 1.2em;
     float: left;
     width: 33.3%;
     text-align: center;
-    padding: 50px;
+   
+    
     
 }
 .Box .Box2{
@@ -248,4 +249,6 @@ background: #f7c08a;}
     color:#0c0909;
     margin-top: 10px;
 }
-
+.fas {
+    padding-top: 20px;
+}
