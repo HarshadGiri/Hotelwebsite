@@ -132,21 +132,22 @@ line-height: 1.2em;
     float: left;
     width: 33.3%;
     text-align: center;
-    padding: 0;
-    margin-top: 10px;
-    color:#fff ;
-    background: black   ;
-        
+    padding: 50px;
+    
 }
 .Box .Box2{
-    background:#f7c08a;
-    padding: 0;
-    margin: 0%;
+background: #f7c08a;
+padding-bottom: 0%;
+height: 200px;
+width: 100%;
+    
+   
     
 }
 .Box .Box1{
-
+    
     padding-top: 15px;
+    width: 100%;
     
 
 }
@@ -242,7 +243,9 @@ background: #f7c08a;}
     border-color: rgb(194, 120, 31);
 
 }
-.Box i {
-    color: #fff;
+
+#contact-info .Box i {
+    color:#0c0909;
+    margin-top: 10px;
 }
 
