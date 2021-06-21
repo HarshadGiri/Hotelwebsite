@@ -38,6 +38,7 @@
 #about-info .left-info{
     float: none;
     text-align: center;
+    height: 100%;
 }
 #about-info .info-right{
     float: none;
